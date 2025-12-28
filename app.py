@@ -31,7 +31,7 @@ def apply_light_theme():
         padding: 2.5rem 3rem;
         border-radius: 16px;
         border: 1px solid #e5e5e5;
-        margin-top: 40px;
+        margin-top: 5.5rem;
     }
     .stTextArea textarea {
         font-size: 16px;
@@ -100,6 +100,9 @@ def preprocess_text(text):
 # -----------------------------------------
 # UI CONTENT
 # -----------------------------------------
+
+
+st.set_page_config("YouTube Sentiment AI", page_icon="🤖", layout = "centered")
 st.markdown("""
 <div style="display:flex;align-items:center;gap:12px;">
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" width="45">
@@ -150,3 +153,4 @@ st.markdown("""
 DEVELOPED BY <b>BAGADI <span style="color:#FF0000;">SANTHOSH KUMAR</span></b>
 </div>
 """, unsafe_allow_html=True)
+
